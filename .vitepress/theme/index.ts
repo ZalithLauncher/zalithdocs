@@ -2,8 +2,6 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import Download from './components/Download.vue'
-import DownloadZL2 from './components/DownloadZL2.vue'
 import ApngPlayer from './components/ApngPlayer.vue'
 import ThemeSwitcher from './components/ThemeSwitcher.vue'
 import './style.css'
@@ -29,8 +27,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    app.component('Download', Download)
-    app.component('DownloadZL2', DownloadZL2)
     app.component('ApngPlayer', ApngPlayer)
   }
 } satisfies Theme

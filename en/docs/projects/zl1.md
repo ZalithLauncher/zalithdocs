@@ -34,4 +34,4 @@ We welcome community contributors to join the project and help make Zalith Launc
 
 ## Download
 
-You can get the latest version of Zalith Launcher on our [Download Page](/download).
+You can get the latest version of Zalith Launcher on our [Download Page](https://www.zalithlauncher.cn/download).
