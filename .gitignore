@@ -3,6 +3,7 @@
 /.vitepress/cache
 /.vitepress/.temp
 # 其他文件
+.workbuddy/
 .idea
 .trae
 node_modules
