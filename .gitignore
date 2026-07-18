@@ -1,0 +1,12 @@
+# vitepress忽略文件
+/.vitepress/dist
+/.vitepress/cache
+/.vitepress/.temp
+# 其他文件
+.idea
+.trae
+node_modules
+
+# lock文件
+yarn.lock
+pnpm-lock.json

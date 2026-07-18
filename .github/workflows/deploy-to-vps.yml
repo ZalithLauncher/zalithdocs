@@ -1,0 +1,60 @@
+name: 部署文档站至 VPS
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  VPS_IP: ${{ secrets.VPS_IP }}
+  VPS_PASSWORD: ${{ secrets.VPS_PASSWORD }}
+  VPS_BASE_URL: ${{ secrets.VPS_DOCS_BASE_URL }}
+  VPS_USERNAME: ${{ secrets.VPS_USERNAME || 'root' }}
+  VPS_PORT: ${{ secrets.VPS_PORT || '22' }}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '24.x'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build project
+      run: npm run docs:build
+
+    - name: Install sshpass
+      run: sudo apt-get update && sudo apt-get install -y sshpass
+
+    - name: Compress build artifacts
+      run: tar -czvf build.tar.gz -C ./.vitepress/dist .
+
+    - name: Upload to VPS
+      run: |
+        export SSHPASS="${{ secrets.VPS_PASSWORD }}"
+        sshpass -e scp -P ${{ env.VPS_PORT }} -o StrictHostKeyChecking=no build.tar.gz ${{ env.VPS_USERNAME }}@${{ env.VPS_IP }}:/tmp/docs-build.tar.gz
+
+    - name: Extract on VPS
+      run: |
+        export SSHPASS="${{ secrets.VPS_PASSWORD }}"
+        sshpass -e ssh -p ${{ env.VPS_PORT }} -o StrictHostKeyChecking=no ${{ env.VPS_USERNAME }}@${{ env.VPS_IP }} 'rm -rf ${{ env.VPS_BASE_URL }}/* && tar -xzvf /tmp/docs-build.tar.gz -C ${{ env.VPS_BASE_URL }} && rm /tmp/docs-build.tar.gz'
+
+    - name: Set Permissions on VPS
+      run: |
+        export SSHPASS="${{ secrets.VPS_PASSWORD }}"
+        sshpass -e ssh -p ${{ env.VPS_PORT }} -o StrictHostKeyChecking=no ${{ env.VPS_USERNAME }}@${{ env.VPS_IP }} "chmod -R 755 ${{ env.VPS_BASE_URL }}"
+
+    - name: Deployment completed
+      run: echo "已将文档站部署到 VPS 服务器！"
