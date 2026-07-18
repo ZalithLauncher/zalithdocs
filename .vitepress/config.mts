@@ -10,7 +10,7 @@ export default defineConfig({
     en: {label: 'English'},
   },
   sitemap: {
-    hostname: 'https://zalithlauncher.cn'
+    hostname: 'https://docs.zalithlauncher.cn'
   },
   head: [
     ['link', { rel: 'icon', href: '/zl_icon.webp' }],
