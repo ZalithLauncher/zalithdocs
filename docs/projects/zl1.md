@@ -33,4 +33,4 @@ Zalith Launcher 是一个开源项目，您可以在 [GitHub](https://github.com
 
 ## 下载
 
-您可以在我们的[下载页面](/download)获取最新版本的 Zalith Launcher。
+您可以在我们的[下载页面](https://www.zalithlauncher.cn/download)获取最新版本的 Zalith Launcher。

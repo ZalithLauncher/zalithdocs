@@ -47,7 +47,7 @@ export default <DefaultTheme.Config> {
     },
     nav: [
         { text: 'Home', link: '/en/' },
-        { text: 'Download', link: '/en/zl2-download' },
+        { text: 'Download', link: 'https://www.zalithlauncher.cn/download' },
         { text: 'Announcement', link: '/en/docs/announcement/discord-shutdown' },
         { 
             text: 'More',

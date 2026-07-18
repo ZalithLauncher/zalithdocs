@@ -13,9 +13,6 @@ pnpm docs:build
 
 # 本地预览构建产物
 pnpm docs:preview
-
-# 更新版本信息
-pnpm update-versions
 ```
 
 ## 项目结构
@@ -27,10 +24,7 @@ zalithdocs/
 ├── en/             # 英文文档
 ├── locales/        # 国际化配置
 ├── public/         # 静态资源
-├── scripts/        # 构建脚本
-├── index.md        # 首页
-├── download.md     # 下载页
-└── zl2-download.md # ZL2 下载页
+└── index.md        # 首页
 ```
 
 ## 许可证

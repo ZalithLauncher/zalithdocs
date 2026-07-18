@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Download Now
-      link: /en/zl2-download
+      link: https://www.zalithlauncher.cn/download
     - theme: alt
       text: Documentation
       link: /docs/projects/zl2
