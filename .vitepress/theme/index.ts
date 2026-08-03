@@ -9,8 +9,6 @@ import './style/blur.css'
 import './style/red.css'
 import './style/sakura.css'
 
-import DomainWarningPopup from './components/DomainWarningPopup.vue'
-
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -20,9 +18,6 @@ export default {
       ],
       'nav-screen-content-after': () => [
         h(ThemeSwitcher, { mode: 'navscreen' }),
-      ],
-      'layout-bottom': () => [
-        h(DomainWarningPopup)
       ],
     })
   },

@@ -51,13 +51,6 @@ export default <DefaultTheme.Config> {
                 { text: '启动器文档', link: '/docs/projects/zl2' },
                 { text: '关于本站', link: '/docs/about/about' }
             ]
-        },
-        { text: '切换网络节点', 
-            items: [
-                { text: '[AL] 阿里云节点', link: 'https://zalithlauncher.cn' },
-                { text: '[CF]Cloudflare 节点', link: 'https://cf.zalithlauncher.cn' },
-                { text: '[EO]edgeone 节点 - 推荐', link: 'https://www.zalithlauncher.cn' }
-            ]
         }
     ],
 
@@ -102,13 +95,6 @@ export default <DefaultTheme.Config> {
     ],
 
     outlineTitle: '当前页大纲',
-
-    domainWarning: {
-        title: '访问提示',
-        content: '我们检测到您正在使用 <strong>{{ currentHostname }}</strong> 访问。为了获得更快的网站访问速度和更好的稳定性，我们强烈建议您访问我们的 EdgeOne CDN 节点：',
-        button: '我知道了',
-        officialDomain: 'www.zalithlauncher.cn'
-    },
 
     footer: {
         message: '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">新ICP备2024015133号-4</a>',

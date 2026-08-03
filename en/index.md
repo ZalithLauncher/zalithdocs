@@ -31,6 +31,9 @@ features:
     details: Manage game resources for different game versions
 ---
 
+### About This Site
+This is the official documentation website of Zalith Launcher, providing project documentation and help content only. To download the launcher or visit the main site, please go to [www.zalithlauncher.cn](https://www.zalithlauncher.cn).
+
 ### Legal Disclaimer
 Minecraft® is a registered trademark of _Microsoft Corporation_ and _Mojang Synergies AB_.
 ZalithLauncher is not affiliated with or endorsed by Microsoft, Mojang, or NetEase.

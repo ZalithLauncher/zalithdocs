@@ -55,13 +55,6 @@ export default <DefaultTheme.Config> {
                 { text: 'Launcher Documentation', link: '/en/docs/projects/zl2' },
                 { text: 'About this site', link: '/en/docs/about/about' }
             ]
-        },
-        { text: 'Switch Network Node', 
-            items: [
-                { text: '[AL]Aliyun Node', link: 'https://zalithlauncher.cn' },
-                { text: '[CF]Cloudflare Node', link: 'https://cf.zalithlauncher.cn' },  
-                { text: '[EO]edgeone Node-Recommended', link: 'https://www.zalithlauncher.cn' }
-            ]
         }
     ],
     sidebar: [
@@ -104,12 +97,6 @@ export default <DefaultTheme.Config> {
         }
     ],
     outlineTitle: 'On this page',
-    domainWarning: {
-        title: 'Access Notice',
-        content: 'We detected that you are accessing from <strong>{{ currentHostname }}</strong>. For faster website access speed and better stability, we strongly recommend you visit our EdgeOne CDN node:',
-        button: 'I understand',
-        officialDomain: 'www.zalithlauncher.cn'
-    },
 
     footer: {
         message: '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">新ICP备2024015133号-4</a>',
