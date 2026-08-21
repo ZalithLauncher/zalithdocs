@@ -4,7 +4,7 @@
 
 - [docs.zalithlauncher.cn](https://docs.zalithlauncher.cn) 部署在 [EdgeOne Pages](https://cloud.tencent.com/act/pro/edgeone_techoday_promotion)。
 
-本网站源代码仓库：[ZalithLauncher/ZalithWebsite](https://github.com/ZalithLauncher/ZalithWebsite)，您可以在 Github 上发起 PR 为该网站/文档给出宝贵的意见！
+本网站源代码仓库：[ZalithLauncher/ZalithWebsite](https://github.com/ZalithLauncher/ZalithWebsite) [ZalithLauncher/zalithdocs](https://github.com/ZalithLauncher/zalithdocs)，您可以在 Github 上发起 PR 为该网站/文档给出宝贵的意见！
 
 ## Zalith Launcher 1 下载路线提供人员
 - [柠枺](https://lemwood.cn)（柠泽资源站）
