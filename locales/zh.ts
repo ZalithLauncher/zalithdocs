@@ -35,7 +35,7 @@ export default <DefaultTheme.Config> {
     returnToTopLabel: '返回顶部',
     sidebarMenuLabel: '菜单',
     editLink: {
-        pattern: 'https://github.com/zalithlauncher/zalithwebsite/edit/main/:path',
+        pattern: 'https://github.com/zalithlauncher/zalithdocs/edit/main/:path',
         text: '在 GitHub 上编辑此页'
     },
     lastUpdated: {
