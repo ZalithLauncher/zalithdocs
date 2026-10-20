@@ -17,7 +17,7 @@ The launcher provides installation methods for the most popular mod loaders:
 - [Quilt](https://quiltmc.org/)  
 
 This guide is slightly advanced and may not be suitable for beginners. Prerequisite guide:  
-- [Downloading and Installing the Game](/en/docs/help/download_game)
+- [Downloading and Installing the Game](/docs/help/download_game)
 
 ## Installing a Mod Loader
 The launcher installs mod loaders in client mode. When downloading a game version, select the mod loader you want to install from the Add-ons list:  

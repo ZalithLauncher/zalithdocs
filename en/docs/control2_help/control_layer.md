@@ -4,7 +4,7 @@
 MovTery - 2025/10/29
 :::
 
-A control layer is the container for [controls](/en/docs/control2_help/controls); all controls must be placed on a control layer.  
+A control layer is the container for [controls](/docs/control2_help/controls); all controls must be placed on a control layer.  
 Similar to "layers" in drawing software, control layers help you easily achieve the following:  
 - Manage and organize controls across different layers.  
 - Implement layered display, hiding, or independent operation of controls.
@@ -32,7 +32,7 @@ Each control layer has its own set of properties, which can be used to create po
 ## Control Layer Attributes
 
 - **Visible Scenario**  
-    For more details about game visibility scenes, see: [Game States](/en/docs/control2_help/control_layout_operations#game-states)  
+    For more details about game visibility scenes, see: [Game States](/docs/control2_help/control_layout_operations#game-states)  
   - **Visible In-Game:**  
     The control layer is visible when the game is in a non-mouse mode.  
   - **Visible Out-Game:**  
@@ -41,9 +41,9 @@ Each control layer has its own set of properties, which can be used to create po
   The layer is hidden by default and can only be shown or hidden through button events.
 - **Keep visible when using mouse**  
   When enabled, this control layer remains visible even if you’re using a physical mouse.  
-  For more details about control layout operations, see: [Control Layout Operations](/en/docs/control2_help/control_layout_operations#operation-states)
+  For more details about control layout operations, see: [Control Layout Operations](/docs/control2_help/control_layout_operations#operation-states)
 - **Keep visible when using gamepad**  
   When enabled, this control layer remains visible even if you’re using a gamepad.  
-  For more details about control layout operations, see: [Control Layout Operations](/en/docs/control2_help/control_layout_operations#operation-states)
+  For more details about control layout operations, see: [Control Layout Operations](/docs/control2_help/control_layout_operations#operation-states)
 - **Merge Control Downward**  
   Merges all controls from this layer into the next control layer below it.
