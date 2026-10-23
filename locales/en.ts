@@ -46,14 +46,14 @@ export default <DefaultTheme.Config> {
         }
     },
     nav: [
-        { text: 'Home', link: '/' },
+        { text: 'Home', link: '/en/' },
         { text: 'Download', link: 'https://www.zalithlauncher.cn/download' },
-        { text: 'Announcement', link: '/docs/announcement/discord-shutdown' },
+        { text: 'Announcement', link: '/en/docs/announcement/discord-shutdown' },
         { 
             text: 'More',
             items: [
-                { text: 'Launcher Documentation', link: '/docs/projects/zl2' },
-                { text: 'About this site', link: '/docs/about/about' }
+                { text: 'Launcher Documentation', link: '/en/docs/projects/zl2' },
+                { text: 'About this site', link: '/en/docs/about/about' }
             ]
         }
     ],
@@ -61,38 +61,38 @@ export default <DefaultTheme.Config> {
         {
             text: 'Projects',
             items: [
-                { text: 'Zalith Launcher 1', link: '/docs/projects/zl1' },
-                { text: 'Zalith Launcher 2', link: '/docs/projects/zl2' }
+                { text: 'Zalith Launcher 1', link: '/en/docs/projects/zl1' },
+                { text: 'Zalith Launcher 2', link: '/en/docs/projects/zl2' }
             ]
         },
         {
             text: 'ZL2 Launcher Help',
             items: [
-                { text: 'Download and Install Game', link: '/docs/help/download_game' },
-                { text: 'ModLoader', link: '/docs/help/modloader' },
-                { text: 'Account', link: '/docs/help/account' },
-                { text: '3rd Authentication Servers', link: '/docs/help/auth_server' },
-                { text: 'Replace Skin or Capes', link: '/docs/help/changing_skin_capes'},
-                { text: 'Version Isolation', link: '/docs/help/version_isolation' }
+                { text: 'Download and Install Game', link: '/en/docs/help/download_game' },
+                { text: 'ModLoader', link: '/en/docs/help/modloader' },
+                { text: 'Account', link: '/en/docs/help/account' },
+                { text: '3rd Authentication Servers', link: '/en/docs/help/auth_server' },
+                { text: 'Replace Skin or Capes', link: '/en/docs/help/changing_skin_capes'},
+                { text: 'Version Isolation', link: '/en/docs/help/version_isolation' }
             ]
         },
         {
             text: 'ZL2 Control Layout Help',
             collapsed: true,
             items: [
-                { text: 'Overview', link: '/docs/control2_help/overview' },
-                { text: 'Basic Editor Operations', link: '/docs/control2_help/basic_operation' },
-                { text: "Control Layout Operations", link: "/docs/control2_help/control_layout_operations" },
-                { text: 'Control Layer', link: '/docs/control2_help/control_layer' },
-                { text: 'Controls', link: '/docs/control2_help/controls' }
+                { text: 'Overview', link: '/en/docs/control2_help/overview' },
+                { text: 'Basic Editor Operations', link: '/en/docs/control2_help/basic_operation' },
+                { text: "Control Layout Operations", link: "/en/docs/control2_help/control_layout_operations" },
+                { text: 'Control Layer', link: '/en/docs/control2_help/control_layer' },
+                { text: 'Controls', link: '/en/docs/control2_help/controls' }
             ]
         },
         {
             text: 'About this site',
             items: [
-                { text: 'About', link: '/docs/about/about' },
-                { text: 'Privacy Policy', link: '/docs/about/privacy' },
-                { text: 'Terms of Service', link: '/docs/about/terms' }
+                { text: 'About', link: '/en/docs/about/about' },
+                { text: 'Privacy Policy', link: '/en/docs/about/privacy' },
+                { text: 'Terms of Service', link: '/en/docs/about/terms' }
             ]
         }
     ],
